@@ -7,12 +7,13 @@ class Kerrostalo
 {
 public:
     Kerrostalo();
+    ~Kerrostalo();
     virtual double laskeKulutus(double);
 
 private:
-    Katutaso eka;
-    Kerros toka;
-    Kerros kolmas;
+    Katutaso * eka;
+    Kerros * toka;
+    Kerros * kolmas;
 };
 
 #endif // KERROSTALO_H

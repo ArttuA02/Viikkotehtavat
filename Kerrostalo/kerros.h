@@ -8,7 +8,10 @@ public:
     Kerros();
     virtual void maaritaAsunnot();
     virtual double laskeKulutus(double);
-    Asunto as1, as2, as3, as4;
+    Asunto * as1;
+    Asunto * as2;
+    Asunto * as3;
+    Asunto * as4;
 };
 
 #endif // KERROS_H

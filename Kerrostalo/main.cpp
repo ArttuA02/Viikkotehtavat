@@ -4,8 +4,10 @@
 
 int main()
 {
-    Kerrostalo olio1;
-    double tulos = olio1.laskeKulutus(1);
-    cout<<"Kokonaiskulutus = "<<tulos<<endl;
+    Kerrostalo * pKerrostalo;
+    pKerrostalo = new Kerrostalo;
+    double tulos = pKerrostalo->laskeKulutus(1);
+    cout<<"Kerrostalon kokonaiskulutus = "<<tulos<<endl;
+    delete pKerrostalo;
     return 0;
 }

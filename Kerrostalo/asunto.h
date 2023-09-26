@@ -7,7 +7,7 @@ class Asunto
 {
 public:
     Asunto();
-    void maarita(int, int);
+    void maarita(int asukasmaara, int neliot);
     double laskeKulutus(double);
 
     int asukasmaara;
